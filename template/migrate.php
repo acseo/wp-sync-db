@@ -358,7 +358,7 @@ $loaded_profile = wp_parse_args($loaded_profile, $this->checkbox_options);
             <li>
               <label for="exclude-transients">
                 <input id="exclude-transients" type="checkbox" value="1" autocomplete="off" name="exclude_transients" <?php $this->maybe_checked($loaded_profile['exclude_transients']); ?> />
-                Exclude <a href="https://codex.wordpress.org/Transients_API" target="_blank">transients</a> (temporary cached data)
+                <?php echo sprintf(__('Exclude <a href="%s" target="_blank">transients</a> (temporary cached data)', 'wp-sync-db'), 'https://codex.wordpress.org/Transients_API'); ?>
               </label>
             </li>
           </ul>
