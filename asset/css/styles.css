@@ -603,7 +603,8 @@
 }
 .wpsdb .settings-tab .slider-success-msg {
 	display: none;
-	right: -53px;
+	left: 100%;
+	margin-left: 1em;
 	bottom: -13px;
 	position: absolute;
 	font-weight: bold;
@@ -648,8 +649,8 @@
 	position: absolute;
 }
 .wpsdb .settings-tab .option-section .ajax-success-msg {
-	right: -42px;
-	left: inherit;
+	left: 100%;
+	margin-left: 0.5em;
 	top: 0px;
 	position: absolute;
 	font-weight: bold;
@@ -658,7 +659,7 @@
 	right: -45px;
 }
 .wpsdb .settings-tab .option-section .bubble .ajax-success-msg {
-	right: -65px;
+	margin-left: 2em;
 }
 .wpsdb .allow-remote-reqeusts {
 	font-size: 14px;
